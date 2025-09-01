@@ -1,5 +1,5 @@
 ## 1. Problem Statement
-The goal of this project is to detect potential insider threats by analyzing user behavior across multiple activity logs. Using the CERT Insider Threat Dataset, we aim to build a system that learns baseline behavior patterns for individual users and flags deviations—such as unusual login times, abnormal file access, or suspicious web activity—as potential security threats.
+The goal of this project is to detect potential insider threats by analyzing user behavior across multiple activity logs. Using the CERT Insider Threat Dataset, we aim to build a system that learns baseline behavior patterns for individual users and flags deviations—such as unusual login times, abnormal file access, or suspicious web activity — as potential security threats.
 
 ## 2. Dataset Description
 Source: CERT Insider Threat Dataset (Kaggle)[[https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research?select=http.csv]]
