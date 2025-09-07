@@ -26,3 +26,6 @@ ipython_config.py
 # IDE specific
 .idea/
 .vscode/
+Dataset/temp.py
+Dataset/processed_data.csv
+Dataset/X_test.csv
