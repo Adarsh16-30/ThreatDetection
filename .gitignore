@@ -31,3 +31,8 @@ Dataset/processed_data.csv
 Dataset/X_test.csv
 /ml_env
 Dataset/http.csv
+Dataset/X_train.csv
+Dataset/test_metadata.csv
+Dataset/train_metadata.csv
+Dataset/X_train.csv
+Dataset/X_train.csv
