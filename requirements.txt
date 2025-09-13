@@ -3,3 +3,6 @@ pandas>=2.2
 scikit-learn>=1.0.0
 matplotlib
 seaborn
+tensorflow
+pyod
+plotly
