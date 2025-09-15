@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/*
+*.nbconvert.html
+profile_default/
+ipython_config.py
+
+# Data files (if they are very large and you don't want to version them)
+# You might decide to version smaller sample datasets, though.
+# *.csv
+# *.txt
+# data/
+
+# IDE specific
+.idea/
+.vscode/
