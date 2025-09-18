@@ -1,10 +1,10 @@
-##1. Problem Statement##
+## 1. Problem Statement##
 The goal of this project is to detect potential insider threats by analyzing user behavior across multiple activity logs. Using the CERT Insider Threat Dataset, we aim to build a system that learns baseline behavior patterns for individual users and flags deviations—such as unusual login times, abnormal file access, or suspicious web activity—as potential security threats.
 
-##2. Dataset Description##
+## 2. Dataset Description##
 Source: CERT Insider Threat Dataset (Kaggle)[[https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research?select=http.csv]]
 
-##Files Used:##
+## Files Used:
 email.csv – Metadata about internal emails (sender, recipients, timestamp, etc.)
 http.csv – Web access logs (URL, user, timestamp)
 logon.csv – Logon/logoff activity with timestamps and machine IDs
@@ -12,13 +12,13 @@ file.csv – File access logs including activity type
 users.csv – User profiles (role, department, etc.)
 devices – (Custom feature) Activity involving devices, with timestamps
 
-##3. Tools & Technologies##
+## 3. Tools & Technologies##
 Language: Python
 Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 Platform: Google Colab / Jupyter Notebook
 Visualization: Seaborn, Matplotlib
 
-##4. Feature Engineering Plan##
+## 4. Feature Engineering Plan##
 **email.csv**
 email_hour (hour of send)
 num_recipients (to + cc + bcc)
@@ -49,7 +49,7 @@ Flag users whose behavior doesn’t match their expected role
 Activity type + timestamp
 is_off_hours_device_use flag for night/weekend use
 
-##5. Custom Anomaly Rules##
+## 5. Custom Anomaly Rules##
 File	Anomaly Rule:
 1)email.csv	Flag emails with large attachments or suspicious file types
 2)http.csv	Flag any web access using non-HTTPS protocol
