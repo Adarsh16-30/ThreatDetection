@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Read the CSV and parse 'date' column as datetime
-df = pd.read_csv("device.csv", parse_dates=["date"])
+df = pd.read_csv("../Dataset/device.csv", parse_dates=["date"])
 
 # Step 2: Drop the unwanted columns ('id' and 'file_tree')
 df.drop(columns=['id', 'file_tree'], inplace=True)
